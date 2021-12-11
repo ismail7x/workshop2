@@ -1,0 +1,14 @@
+ec2-18-116-104-81.us-east-2.compute.amazonaws.com
+
+18.116.104.81
+
+aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 566790161816.dkr.ecr.us-east-2.amazonaws.com
+566790161816.dkr.ecr.us-east-2.amazonaws.com/workshop2
+
+database:
+name: nctutorials
+url: nctutorials.ch0o4lckmgm0.us-east-2.rds.amazonaws.com
+Master username: postgres
+password: admin123
+
+
